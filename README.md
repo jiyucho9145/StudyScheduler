@@ -9,6 +9,6 @@ Warning: This repository is in progress now!
 
 ## 2.1. Importing a CSV file
 
-## 2.2. Exporting into a CSV file
+## 2.2. Exporting the data into a CSV file
 
-## 2.3. Exporting a chart into a CSV file
+## 2.3. Exporting the chart into a CSV file
