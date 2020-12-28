@@ -2,7 +2,7 @@
 #define SCT_ERR 1
 
 /* Error message. */
-#define SCT_MSG "error:%d:%s\n"
+#define SCT_MSG "error:%s:%d\n"
 
 /* Returns an error code if a returned code of a called function is an error code. */
 #define SCT_CHK_RC(rc) if(0!=(rc)){fprintf(stderr,SCT_MSG,__FILE__,__LINE__);return(SCT_ERR);}
