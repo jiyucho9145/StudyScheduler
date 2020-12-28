@@ -1,8 +1,8 @@
 #include <stc_macros.h>
 #include <sct_database_profile.h>
-#include <sct_accounting_profile.h>
+#include <sct_tools.h>
 
-static int run(sct_manager *mgr, int argc, char[] *argv)
+static sct_int run(sct_manager *mgr, int argc, char[] *argv)
 {
 
     sct_int rc;
@@ -26,8 +26,8 @@ static int run(sct_manager *mgr, int argc, char[] *argv)
 int main(int argc, char[] *argv)
 {
 
-    sct_int rc;
-    sct_int rc2;
+    int rc;
+    int rc2;
 
     sct_manager *mgr = sct_alloc_manager();
     if (NULL == mgr){
