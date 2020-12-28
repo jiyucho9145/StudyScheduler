@@ -12,10 +12,10 @@ int main(int argc, char[] *argv)
         return 1;
     }
 
-    sct_database_profile *dp = sct_new_database_profile(mg);
+    sct_database_profile *dp = sct_new_database_profile(mgr);
     SCT_CHK_NULL(dp)
 
-    rc = sct_free_manager(mg);
+    rc = sct_free_manager(mgr);
     if (0 != rc){
         return 1;
     }
